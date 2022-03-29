@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="author" content="Esraa Saad" />
+    <meta name="description" content="Website For portfolio to web & graphic design" />
+    <meta name="keywords" content="Angora, Branding, Web Design, Graphic Design, Development" />
+    <title>Angora - Responsive One Page Parallax Template</title>
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div id='loadScreen'>
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+          </div>
+    </div>
+
+
+    <!-- Colors Button Start -->
+    <div class="colorIcon position-fixed start-0 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Div for background color and padding of icon -->
+                    <div class="py-2">
+                        <!-- icon inside square click it ti select color -->
+                        <i class="fas fa-cogs text-white"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Colors Button End -->
+
+    <!-- Main Part contains navbar and header -->
+    <section class="mainPart vh-100 position-relative">
+        <!-- Carousel displays background images as a slider contain content -->
+        <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- The First Slider -->
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <!-- The First Background -->
+                    <img src="images/slideshow-1.jpg" class="vh-100 h-100" alt="SlideShow1" />
+                    <!-- The First Content -->
+                    <div class="carousel-caption d-md-block translate-middle fw-bold">
+                        <p>We build great brands.</p>
+                    </div>
+                </div>
+                <!-- The Second Slider -->
+                <div class="carousel-item" data-bs-interval="1000">
+                    <!-- The Second Background -->
+                    <img src="images/slideshow-2.jpg" class="vh-100 d-block w-100" alt="SlideShow2" />
+                    <!-- The Second Content -->
+                    <div class="carousel-caption d-md-block translate-middle fw-bold">
+                        <p>Focused on Strategy.</p>
+                    </div>
+                </div>
+                <!-- The Third Slider -->
+                <div class="carousel-item" data-bs-interval="1000">
+                    <!-- The Third Background -->
+                    <img src="./images/slideshow-3.jpg" class="vh-100 d-block w-100" alt="SlideShow3" />
+                    <!-- The Third Content -->
+                    <div class="carousel-caption d-md-block translate-middle fw-bold">
+                        <p>Advanced in digital works.</p>
+                    </div>
+                </div>
+            </div>
+            <button
+                class="carousel-control carousel-control-prev text-white  border border-start-0 border-bottom-0"
+                type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control carousel-control-next text-white  border border-start-0"
+                type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Navbar contains links -->
+        <nav id="nav" class="navbar navbar-expand-lg navbar-light fixed-top py-3 fw-bold text-capitalize">
+            <div class="container">
+                <!-- Navbar -->
+                <h1><a class="navbar-brand" href="#"><img src="./images/logo-white.png" alt="Angora" /></a></h1>
+                <!-- Button appears in small and medium screens to display navbar links -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 me-5 mb-lg-0">
+                        <!-- Home Link -->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <!-- About Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">about</a>
+                        </li>
+                        <!-- Team Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">team</a>
+                        </li>
+                        <!-- Projects Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">projects</a>
+                        </li>
+                        <!-- Services Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">services</a>
+                        </li>
+                        <!-- Blog Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">blog</a>
+                        </li>
+                        <!-- Contact Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">contact</a>
+                        </li>
+                    </ul>
+                    <!-- Social Links -->
+                    <ul class="navbar-nav">
+                        <!-- Twitter -->
+                        <li> <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                        <!-- FaceBook -->
+                        <li><a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <!-- Instgram -->
+                        <li><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- About Section Start -->
+    <section id="about">
+        <!-- The container of contents -->
+        <div class="container">
+            <!-- The First row -->
+            <div class="row">
+                <!-- One column and contents at the center -->
+                <div class="col-12">
+                    <div class="aboutTitle text-center m-auto">
+                        <!-- Capital Letter -->
+                        <div
+                            class="aboutHeading position-relative d-flex justify-content-center align-items-center py-3">
+                            <h3>A</h3>
+                            <!-- Heading of about section -->
+                            <h2 class="position-absolute mb-0 fw-bold text-capitalize">about us</h2>
+                        </div>
+                        <!-- Paragraph -->
+                        <p class="lead">Pellentesque elementum libero enim, eget gravida nunc laoreet et. Nullam ac enim
+                            auctor, fringilla risus at, imperdiet turpis. Pellentesque elementum libero enim.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- The Second row -->
+            <div class="row py-5">
+                <!-- The Left Part -->
+                <div class="col-md-6">
+                    <!-- Paragraphs -->
+                    <div class="item">
+                        <p>Pellentesque vel elit egestas, pretium est ac, convallis orci. Vivamus sem nisl, tristique
+                            vel fringilla vitae, efficitur at eros. Duis aliquet aliquet pharetra. Suspendisse bibendum
+                            erat quis gravida pulvinar. Phasellus vel eros porta, blandit dui ac, viverra felis.</p>
+                        <p>Nunc placerat iaculis pulvinar. Nullam auctor mauris sed urna posuere volutpat. Mauris ut dui
+                            sit amet elit fermentum fermentum. Fusce tincidunt diam at bibendum porta.</p>
+                        <p>Aliquam nunc felis, sagittis eu purus non, interdum vehicula urna. Vivamus congue diam
+                            sapien, eu pellentesque ipsum ultricies quis.
+                        </p>
+                    </div>
+                </div>
+                <!-- The Right Part -->
+                <div class="col-md-6">
+                    <div class="percent ms-auto py-3">
+                        <div class="d-flex justify-content-between percent1">
+                            <!-- Language name and experience perecntage -->
+                            <h6 class="text-capitalize">branding</h6>
+                            <span class="ms-auto">80%</span>
+                        </div>
+                        <!-- Progress Bar of percentage -->
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress1" role="progressbar" style="width: 80%"
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="percent ms-auto py-3">
+                        <div class="d-flex justify-content-between percent2">
+                            <!-- Language name and experience perecntage -->
+                            <h6 class="text-capitalize">web design</h6>
+                            <span class="ms-auto">95%</span>
+                        </div>
+                        <!-- Progress Bar of percentage -->
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress2" role="progressbar" style="width: 95%"
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="percent ms-auto py-3">
+                        <div class="d-flex justify-content-between percent3">
+                            <!-- Language name and experience perecntage -->
+                            <h6 class="text-capitalize">graphic design</h6>
+                            <span class="ms-auto">85%</span>
+                        </div>
+                        <!-- Progress Bar of percentage -->
+                        <div class="progress">
+                            <div class="progress-bar bg-danger progress3" role="progressbar" style="width: 85%"
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="percent ms-auto py-3">
+                        <div class="d-flex justify-content-between percent4">
+                            <!-- Language name and experience perecntage -->
+                            <h6 class="text-capitalize">development</h6>
+                            <span class="ms-auto">70%</span>
+                        </div>
+                        <!-- Progress Bar of percentage -->
+                        <div class="progress progress4">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 75%"
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+
+    <!-- Team Section -->
+    <section id="team">
+
+        <!-- Container of contents -->
+        <div class="container">
+            <!-- THe First row -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="teamTitle text-center m-auto">
+                        <div
+                            class="teamHeading position-relative d-flex justify-content-center align-items-center py-3">
+                            <!-- Capital Letter -->
+                            <h3 class="">O</h3>
+                            <!-- Team Section Heading -->
+                            <h2 class="position-absolute mb-0 fw-bold text-capitalize">our team</h2>
+                        </div>
+                        <!-- paragrpah at the center of team section -->
+                        <p class="lead">Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt urna imperdiet
+                            tincidunt rhoncus. Sed mollis ligula non massa aliquam faucibus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- The second row -->
+            <div class="row py-5">
+                <!-- The First column -->
+                <div class="col-lg-3">
+                    <div class="item">
+                        <div class="card border-0">
+                            <div class="position-relative">
+                                <div class="imageScale overflow-hidden">
+                                    <!-- The image at the first column -->
+                                    <img class="card-img-top w-100" src="./images/member-1.jpg" alt="member1" />
+                                </div>
+                                <!-- Layer display when hover -->
+                                <div class="overlay w-100">
+                                    <ul
+                                        class="list-unstyled text-white d-flex justify-content-between align-items-center h-100 w-50 m-auto">
+                                        <li><i class="fab fa-twitter"></i></li>
+                                        <li><i class="fab fa-facebook-f"></i></li>
+                                        <li><i class="fab fa-linkedin-in"></i></li>
+                                        <li><i class="fab fa-dribbble"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Text under the image -->
+                            <div class="card-body text-center">
+                                <h5 class="fw-bold">Michael Broad</h5>
+                                <span>Web Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- The Second column -->
+                <div class="col-lg-3">
+                    <div class="item">
+                        <div class="card border-0">
+                            <div class="position-relative">
+                                <!-- The image at the second column -->
+                                <div class="imageScale overflow-hidden">
+                                    <img class="card-img-top w-100" src="./images/member-2.jpg" alt="member2" />
+                                </div>
+                                <!-- Layer display when hover -->
+                                <div class="overlay w-100">
+                                    <ul
+                                        class="list-unstyled text-white d-flex justify-content-between align-items-center h-100 w-50 m-auto">
+                                        <li><i class="fab fa-twitter"></i></li>
+                                        <li><i class="fab fa-facebook-f"></i></li>
+                                        <li><i class="fab fa-linkedin-in"></i></li>
+                                        <li><i class="fab fa-dribbble"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Text under the image -->
+                            <div class="card-body text-center">
+                                <h5 class="fw-bold">Jeannette Crow</h5>
+                                <span>CEO Founder</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- The Third column -->
+                <div class="col-lg-3">
+                    <div class="item">
+                        <div class="card border-0">
+                            <div class="position-relative">
+                                <!-- The image at the Third column -->
+                                <div class="imageScale overflow-hidden">
+                                    <img class="card-img-top w-100" src="./images/member-3.jpg" alt="member3" />
+                                </div>
+                                <!-- Layer display when hover -->
+                                <div class="overlay w-100">
+                                    <ul
+                                        class="list-unstyled text-white d-flex justify-content-between align-items-center h-100 w-50 m-auto">
+                                        <li><i class="fab fa-twitter"></i></li>
+                                        <li><i class="fab fa-facebook-f"></i></li>
+                                        <li><i class="fab fa-linkedin-in"></i></li>
+                                        <li><i class="fab fa-dribbble"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Text under the image -->
+                            <div class="card-body text-center">
+                                <h5 class="fw-bold">Martin Lawrence</h5>
+                                <span>App Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- The Forth column -->
+                <div class="col-lg-3">
+                    <div class="item">
+                        <div class="card border-0">
+                            <div class="position-relative">
+                                <!-- The image at the Forth column -->
+                                <div class="imageScale overflow-hidden">
+                                    <img class="card-img-top w-100" src="./images/member-4.jpg" alt="member4" />
+                                </div>
+                                <!-- Layer display when hover -->
+                                <div class="overlay w-100">
+                                    <ul
+                                        class="list-unstyled text-white d-flex justify-content-between align-items-center h-100 w-50 m-auto">
+                                        <li><i class="fab fa-twitter"></i></li>
+                                        <li><i class="fab fa-facebook-f"></i></li>
+                                        <li><i class="fab fa-linkedin-in"></i></li>
+                                        <li><i class="fab fa-dribbble"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Text under the image -->
+                            <div class="card-body text-center">
+                                <h5 class="fw-bold">Isabella Dowson</h5>
+                                <span>Creative Director</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- THe Third row -->
+            <div class="row py-5">
+                <!-- The Left Part contains question has offset to like as margin left-->
+                <div class="col-md-5 offset-md-1">
+                    <div class="item text-center">
+                        <h3>Do you have any ideas?</h3>
+                    </div>
+                </div>
+                <!-- The Second Part contains button has offset to like as margin left-->
+                <div class="col-md-3 offset-md-3">
+                    <div class="item text-center">
+                        <a href="#">
+                            <button type="button" class="btn text-capitalize text-white px-4 fw-bold py-2">contact
+                                us</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section End -->
+
+    <!-- Servics Section Start -->
+    <section id="services" class="py-5">
+        <!-- Container of section contents -->
+        <div class="container">
+            <!-- The First row -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="servicesTitle text-center m-auto">
+                        <div
+                            class="servicesHeading position-relative d-flex justify-content-center align-items-center py-3">
+                            <!-- Capital Letter like shadow -->
+                            <h3 class="">S</h3>
+                            <!-- Services Section Heading -->
+                            <h2 class="position-absolute mb-0 fw-bold text-capitalize">services</h2>
+                        </div>
+                        <!-- Paragraph at the center of services section -->
+                        <p class="lead">Nullam ac enim auctor, fringilla risus at, imperdiet turpis. Pellentesque
+                            elementum libero enim, eget gravida nunc laoreet et. Pellentesque elementum libero enim.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- The Second row -->
+            <div class="row py-2">
+                <!-- The First column -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="item">
+                        <!-- icon -->
+                        <i class="fas fa-laptop"></i>
+                        <!-- Heading of item -->
+                        <h5 class="d-inline text-capitalize fw-bold">responsive layout</h5>
+                        <!-- Paragraph -->
+                        <p class="pt-2">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius
+                            utroque dissentias
+                            ut.</p>
+                    </div>
+                </div>
+                <!-- The Second column -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="item">
+                        <!-- icon -->
+                        <i class="fas fa-pencil-ruler"></i>
+                        <!-- Heading of item -->
+                        <h5 class="d-inline text-capitalize fw-bold">modern design</h5>
+                        <!-- Paragraph -->
+                        <p class="pt-2">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius
+                            utroque dissentias
+                            ut.</p>
+                    </div>
+                </div>
+                <!-- The Third column -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="item">
+                        <!-- icon -->
+                        <i class="far fa-flag"></i>
+                        <!-- Heading of item -->
+                        <h5 class="d-inline text-capitalize fw-bold">font awesome icons</h5>
+                        <!-- Paragraph -->
+                        <p class="pt-2">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius
+                            utroque dissentias
+                            ut.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- The Third row -->
+            <div class="row py-2">
+                <!-- The First column -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="item">
+                        <!-- icon -->
+                        <i class="far fa-address-card"></i>
+                        <!-- Heading of item -->
+                        <h5 class="d-inline text-capitalize fw-bold">ajax portfolio</h5>
+                        <!-- Paragraph -->
+                        <p class="pt-2">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius
+                            utroque dissentias
+                            ut.</p>
+                    </div>
+                </div>
+                <!-- The Second column -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="item">
+                        <!-- icon -->
+                        <i class="fas fa-cog"></i>
+                        <!-- Heading of item -->
+                        <h5 class="d-inline text-capitalize fw-bold">color options</h5>
+                        <!-- Paragraph -->
+                        <p class="pt-2">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius
+                            utroque dissentias
+                            ut.</p>
+                    </div>
+                </div>
+                <!-- The Third column -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="item">
+                        <!-- icon -->
+                        <i class="fas fa-headset"></i>
+                        <!-- Heading of item -->
+                        <h5 class="d-inline text-capitalize fw-bold">audio support</h5>
+                        <!-- Paragraph -->
+                        <p class="pt-2">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius
+                            utroque dissentias
+                            ut.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- The Forth row -->
+            <div class="row py-2">
+                <!-- The First column -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="item">
+                        <!-- icon -->
+                        <i class="far fa-list-alt"></i>
+                        <!-- Heading of item -->
+                        <h5 class="d-inline text-capitalize fw-bold">well documented</h5>
+                        <!-- Paragraph -->
+                        <p class="pt-2">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius
+                            utroque dissentias
+                            ut.</p>
+                    </div>
+                </div>
+                <!-- The Second column -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="item">
+                        <!-- icon -->
+                        <i class="fas fa-video"></i>
+                        <!-- Heading of item -->
+                        <h5 class="d-inline text-capitalize fw-bold">background videos</h5>
+                        <!-- Paragraph -->
+                        <p class="pt-2">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius
+                            utroque dissentias
+                            ut.</p>
+                    </div>
+                </div>
+                <!-- The Third column -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="item">
+                        <!-- icon -->
+                        <i class="fab fa-mixer"></i>
+                        <!-- Heading of item -->
+                        <h5 class="d-inline text-capitalize fw-bold">intro slider</h5>
+                        <!-- Paragraph -->
+                        <p class="pt-2">Ferri reque integre mea ut, eu eos vide errem noluise se. Putent laoreet et ius
+                            utroque dissentias
+                            ut.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Servics Section End -->
+
+    <!-- Client Reviews Section Start -->
+    <section id="blog">
+        <!-- container of section contents -->
+        <div class="container">
+            <!-- The First row contains heading and paragraph -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="blogTitle text-center m-auto">
+                        <div
+                            class="blogHeading position-relative d-flex justify-content-center align-items-center py-3">
+                            <!-- Capital Letter -->
+                            <h3 class="">c</h3>
+                            <!-- Blog Heading -->
+                            <h2 class="position-absolute mb-0 fw-bold text-capitalize">client reviews</h2>
+                        </div>
+                        <!-- Paragraph -->
+                        <p class="lead">Donec purus est, tincidunt eu sodales quis, vehicula quis enim. Morbi dapibus,
+                            tellus a gravida faucibus, elit ipsum sollicitudin risus, id ultricies arcu neque eget
+                            velit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- The Second row -->
+            <div class="row">
+                <div class="col-12">
+                    <div id="owl-demo" class="owl-carousel owl-theme">
+                      <div class="item">
+                        <img src="./images/client-1.png" alt="Owl Image" class="rounded-circle w-75">
+                        <h5>martin jack</h5>
+                        <span>from hooli</span>
+                      </div>
+                      <div class="item text-center">
+                        <img src="./images/client-2.png" alt="Owl Image" class="rounded-circle w-75">
+                        <h5>david dowsy</h5>
+                        <span>from globex</span>
+                      </div>
+                      <div class="item text-center">
+                        <img src="./images/client-3.png" alt="Owl Image" class="rounded-circle w-75">
+                        <h5>doglas kosta</h5>
+                        <span>from soylent</span>
+                      </div>
+                      <div class="item text-center">
+                        <img src="./images/client-4.png" alt="Owl Image" class="rounded-circle w-75">
+                        <h5>anthony lee</h5>
+                        <span>from initech</span>
+                      </div>
+                      <div class="item text-center">
+                        <img src="./images/client-5.png" alt="Owl Image" class="rounded-circle w-75">
+                        <h5>jane doris</p>
+                        <span>from acme</span>
+                      </div>
+                      <div class="item text-center">
+                        <img src="./images/client-6.png" alt="Owl Image" class="rounded-circle w-75">
+                        <h5>jonathon doe</h5>
+                        <span>from umbrella</span>
+                      </div>
+                      <div class="item text-center">
+                        <img src="./images/client-7.png" alt="Owl Image" class="rounded-circle w-75">
+                        <h5>shane caston</h5>
+                        <span>from massive</span>
+                      </div>
+                      <div class="item text-center">
+                        <img src="./images/client-8.png" alt="Owl Image" class="rounded-circle w-75">
+                        <h5>hugh tace</h5>
+                        <span>from capital</span>
+                      </div>
+                      <div class="item text-center">
+                        <img src="./images/client-8.png" alt="Owl Image" class="rounded-circle w-75">
+                        <h5>chris wort</h5>
+                        <span>from sylhost</span>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="itemqoute text-center">
+                        <p class="fs-4">
+                            <i class="fas fa-quote-left fa-2x"></i>
+                            Aenean sit amet est orci. Aenean at nisi eget nulla<br> lobortis commodo. Nam eget lorem in ex aliquam dapibus. 
+                            <i class="fas fa-quote-right fa-2x"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Client Reviews Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact">
+        <!-- Container of Contact Section contents -->
+        <div class="container">
+            <!-- The Fitrst row contain Title and paragraph -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="contactTitle text-center m-auto">
+                        <div
+                            class="contactHeading position-relative d-flex justify-content-center align-items-center py-3">
+                            <!-- Capital Letter -->
+                            <h3 class="">G</h3>
+                            <!-- Contact Section Heading -->
+                            <h2 class="position-absolute mb-0 fw-bold text-capitalize">get in touch</h2>
+                        </div>
+                        <!-- Paragraph at the middle -->
+                        <p class="lead">Mauris at tempus mi, ut iaculis dui. Integer laoreet mattis justo nec pretium.
+                            Ut nibh elit, fermentum vel hendrerit vel, dictum nec velit. Morbi volutpat suscipit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- The Second row -->
+            <div class="row">
+                <!-- The Left Part -->
+                <div class="col-md-6">
+                    <!-- Heading of Left Part -->
+                    <div class="item w-75">
+                        <h3 class="fw-bold">Get answers and advices from professional consultants.</h3>
+                    </div>
+                    <!-- Div contain icon next to text -->
+                    <div class="item py-3">
+                        <div class="row">
+                            <!-- Div contains icon -->
+                            <div class="col-1">
+                                <div class="subItem">
+                                    <div>
+                                        <i class="far fa-map fa-2x"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Div contains heading -->
+                            <div class="col-10">
+                                <div>
+                                    <h6 class="text-capitalize fw-bold">address</h6>
+                                    <span>1650 Lombard Street, San Francisco, CA 94123</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Div contain icon next to text -->
+                    <div class="item py-3">
+                        <div class="row">
+                            <!-- Div contains icon -->
+                            <div class="col-1">
+                                <div class="subItem">
+                                    <div>
+                                        <i class="fas fa-mobile-alt fa-2x"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Div contains heading -->
+                            <div class="col-10">
+                                <div>
+                                    <h6 class="text-capitalize fw-bold">phone</h6>
+                                    <span>+1 (415) 876-3250 / +1 (415) 876-3251</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Div contain icon next to text -->
+                    <div class="item py-3">
+                        <div class="row">
+                            <!-- Div contains icon -->
+                            <div class="col-1">
+                                <div class="subItem">
+                                    <div>
+                                        <i class="far fa-envelope fa-2x"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Div contains heading -->
+                            <div class="col-10">
+                                <div>
+                                    <h6 class="text-capitalize fw-bold">say hello</h6>
+                                    <span>[email protected]</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- The Right Part contains Form -->
+                <div class="col-md-6">
+                    <div class="item">
+                        <form class="py-4">
+                            <!-- To input Name -->
+                            <div class="form-group pb-3">
+                                <input type="text" name="name" class="form-control p-2 ps-3" placeholder="Name" />
+                            </div>
+                            <!-- To input Email -->
+                            <div class="form-group pb-3">
+                                <input type="email" name="email" class="form-control p-2 ps-3" placeholder="Email" />
+                            </div>
+                            <!-- To input Phone -->
+                            <div class="form-group pb-3">
+                                <input type="tel" name="Phone" class="form-control p-2 ps-3" placeholder="Phone" />
+                            </div>
+                            <!-- To input Message -->
+                            <div class="form-group pb-3">
+                                <textarea class="form-control p-2 ps-3" rows="4" placeholder="Message"
+                                    name="message"></textarea>
+                            </div>
+                            <!-- To Submit the Form -->
+                            <div class="pt-3">
+                                <button type="submit" class="btn px-3 py-2 fs-5 text-white fw-bold">
+                                    <i class="fas fa-paper-plane text-white px-2"></i>send message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Div contains icon half ot it at bottom of this section and the other haft at the top of next section  -->
+            <div class="position-relative">
+                <div class="iconArrow position-absolute rounded-circle translate-middle start-50 text-center">
+                    <i class="fas fa-chevron-up text-white fw-bold position-absolute top-50 translate-middle"></i>
+                </div>
+            </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Contact information Section Start -->
+    <section id="contactInfo">
+        <!-- Container of csection contents -->
+        <div class="container">
+            <!-- The First row contains Logo image at the middle -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center py-5">
+                        <img src="./images/icon.png" alt="Agnora Logo" />
+                    </div>
+                </div>
+            </div>
+            <!-- The Second row contains links and information -->
+            <div class="row">
+                <!-- The First column -->
+                <div class="col-md-3">
+                    <div class="item">
+                        <h4 class="text-white">contact info</h4>
+                        <p>1650 Lombard Street, San Francisco, CA 94123</p>
+                        <p>+1 (415) 876-3250</p>
+                        <a href="#">[email protected]</a>
+                    </div>
+                </div>
+                <!-- The Second column -->
+                <div class="col-md-3">
+                    <div class="item">
+                        <h4 class="text-white">useful links</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">support</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">terms &amp; conditions</a></li>
+                            <li><a href="#">affiliated program</a></li>
+                            <li><a href="#">careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- The Third column -->
+                <div class="col-md-3">
+                    <div class="item">
+                        <h4 class="text-white">recent posts</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">sunset in venices</a></li>
+                            <li><a href="#">aerial view of village</a></li>
+                            <li><a href="#">light concrete city</a></li>
+                            <li><a href="#">the little ghost</a></li>
+                            <li><a href="#">royal oats ft, waldo</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- The Forth column -->
+                <div class="col-md-3">
+                    <div class="lastItem">
+                        <h4 class="text-white">popular tags</h4>
+                        <div class="row py-2">
+                            <div class="col-3">
+                                <div class="subSubItem">
+                                    <a href="#" class="rounded-1 p-1">html5</a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="subSubItem">
+                                    <a href="#" class="rounded-1 p-1">css3</a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="subSubItem">
+                                    <a href="#" class="rounded-1 p-1">jquery</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row  py-2">
+                            <div class="col-3">
+                                <div class="subSubItem">
+                                    <a href="#" class="rounded-1 p-1">ux/ui</a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="subSubItem">
+                                    <a href="#" class="rounded-1 p-1">web</a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="subSubItem">
+                                    <a href="#" class="rounded-1 p-1">graphic</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-2">
+                            <div class="col-3">
+                                <div class="subSubItem">
+                                    <a href="#" class="rounded-1 p-1">design</a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="subSubItem">
+                                    <a href="#" class="rounded-1 p-1">development</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact information Section End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="container">
+            <div class="row py-4">
+                <!-- The Left Part contains social links -->
+                <div class="col-md-6 col-12">
+                    <div class="item">
+                        <a href="#"><i class="fab fa-twitter px-2"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f px-2"></i></a>
+                        <a href="#"><i class="fab fa-instagram px-2"></i></a>
+                        <a href="#"><i class="fab fa-dribbble px-2"></i></a>
+                        <a href="#"><i class="fab fa-pinterest px-2"></i></a>
+                    </div>
+                </div>
+                <!-- The Right Part contains copy rights -->
+                <div class="col-md-3 offset-md-3 col-12">
+                    <div class="item">
+                        <span>Copyright &copy; 2020 <a href="#" class="text-decoration-none fw-bold">Agonra</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    
+
+    <div id='colorsChange' class="bg-danger">
+        <div class="colorsBox">
+            <h4>choose your color</h4>
+            <span class="colorItem"></span>
+            <span class="colorItem"></span>
+            <span class="colorItem"></span>
+            <span class="colorItem"></span>
+        </div>
+        <div>
+            <i class="fas fa-cog iconn"></i>
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/3c48162938.js" crossorigin="anonymous"></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+
+</html>
